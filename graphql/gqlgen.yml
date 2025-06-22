@@ -1,10 +1,8 @@
-schema:
-  path: schema.graphql
-  output: graph/generated.go
+schema: schema.graphql
 
 models:
   Account:
-    model: github.com/dragondev88/go-microservices/graph/graphql.Account
+    model: github.com/dragondev88/go-microservices/graphql/graphql.Account
     fields:
-      orders::
+      orders:
         resolver: true
